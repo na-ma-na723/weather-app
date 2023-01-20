@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blueviolet;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loading{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255);
+}
+
+#loading img{
+    width: 50%;
+    height: fit-content;
+}
+
+#main{
+    padding: 30px 10px;
+    border: 0px;
+    height: fit-content;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+#inputBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    align-self: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.inputArea{
+    border-style: hidden;
+}
+
+#input{
+    border: none;
+    width: 100%;
+    resize: none;
+    font-size: 20px;
+    text-align: center;
+    background-color: transparent;
+    color: black;
+}
+
+input{
+    outline: none;
+    border: none;
+}
+
+.day::placeholder{
+    color: rgb(34, 31, 31);
+    opacity: 1;
+}
+
+.night{
+    color: white;
+    border: 1.5px solid white;
+    border-radius: 10px;
+}
+
+.day{
+    color: black;
+    border: 1.5px solid black;
+    border-radius: 10px;
+}
+
+.night::placeholder{
+    color: rgb(202, 190, 190);
+    opacity: 1;
+}
+
+#searchButton img{
+    height: 16px;
+}
+
+#searchButton{
+    background-color: transparent;
+    margin-right: 10px;
+}
+
+.info{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(190,190,190, 0.3);
+}
+
+.desc{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#temperature{
+    font-size: 45px;
+}
+
+.small {
+    font-size: 15px;
+}
+
+.medium {
+    font-size: 20px;
+}
+
+.misc{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    justify-content: center;
+    margin-top: 5px;
+    background-color: rgba(190,190,190, 0.3);
+}
+
+.miscContent{
+    /* border: 2px solid white; */
+    padding: 5px;
+}
+
+.miscContent{
+    display: flex;
+    flex-direction: column;
+}
+
+.miscInner{
+    display: flex;
+    flex-direction: row;
+}
+
+.miscName{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.miscValue{
+    font-size: 25px;
+}
+
+.symbol{
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.visible{
+    visibility: visible;
+}
+
+.notVisible{
+    visibility: hidden;
+    display: none;
+}
